@@ -11,7 +11,9 @@ Route::get('/', function () {
 
 
 Route::get('uno', function () {
-   $categories= AdvancedELOQUENT\Category::has('books')->get();
+   $categories= AdvancedELOQUENT\Category::wherehas('books', function ($query){
+       $query->where('status','public');
+   })->get();
     return view('uno',compact('categories'));
 });
 

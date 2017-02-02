@@ -14,7 +14,7 @@
   <ul>
       @foreach($category->books as $book)
       <li><strong>Titulo: {{ $book->title }}</strong><br>
-          <strong>Contenido:</strong> {{ $book->description }}</li><br>
+          <strong>Contenido:</strong> {{ $book->description }}<br>Estado: {{ $book->status }}</li><br>
       @endforeach
   </ul>
   
