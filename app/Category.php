@@ -12,4 +12,9 @@ class Category extends Model
  	return $this->hasMany('AdvancedELOQUENT\Book');
         
     }
+//    public function getNumBooksAttibute(){
+//        return count($this->books);
+//    }
+    
+    
 }

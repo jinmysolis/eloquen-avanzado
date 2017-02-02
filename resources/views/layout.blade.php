@@ -13,7 +13,7 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>Eloquent Avanzado</title>
 
     <!-- Bootstrap core CSS -->
     
@@ -45,15 +45,15 @@
         </div>
       </div>
     </nav>
-
+      <br>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
+            <li><a href="{{ url('/') }}" class="btn btn-danger">Borrado Multiple</a></li>
+            <li><a href="{{ url('uno') }}"class="btn btn-danger">Uno a Muchos</a></li>
+            <li><a href="#"class="btn btn-danger">Export</a></li>
           </ul>
           
         </div>

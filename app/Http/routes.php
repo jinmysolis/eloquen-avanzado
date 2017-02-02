@@ -11,7 +11,7 @@ Route::get('/', function () {
 
 
 Route::get('uno', function () {
-   $categories= AdvancedELOQUENT\Category::get();
+   $categories= AdvancedELOQUENT\Category::has('books')->get();
     return view('uno',compact('categories'));
 });
 
