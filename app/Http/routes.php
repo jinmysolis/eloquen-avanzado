@@ -9,6 +9,16 @@ Route::get('/', function () {
     return view('destroy', compact('books'));
 });
 
+
+Route::get('uno', function () {
+   $categories= AdvancedELOQUENT\Category::get();
+    return view('uno',compact('categories'));
+});
+
+
+
+
+
 Route::delete('destroy', function (Request $request){
     $ids= $request->get('ids');
     if(count($ids)){

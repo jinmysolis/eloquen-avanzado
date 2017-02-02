@@ -14,7 +14,7 @@
             {!! method_field('delete') !!}
             
              @foreach($books as $book)
-           <input  type="radio" name="ids[]" value="{{ $book->id }}">---{{ $book->title }}<br><br>
+             <input  type="radio" name="ids[]" value="{{ $book->id }}" class="bg-info">---{{ $book->title }}<br><br>
              @endforeach
              
              
