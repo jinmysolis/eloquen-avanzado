@@ -12,7 +12,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+   <link rel="stylesheet" href="{{asset('css/my.css')}}">
     <title>Eloquent Avanzado</title>
 
     <!-- Bootstrap core CSS -->
@@ -20,8 +20,8 @@
   </head>
 
   <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div id="nev">
+    <nav class="navbar  ">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -45,6 +45,7 @@
         </div>
       </div>
     </nav>
+  </div>
       <br>
     <div class="container-fluid">
       <div class="row">

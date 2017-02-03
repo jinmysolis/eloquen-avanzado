@@ -1,0 +1,25 @@
+body{
+    font-size: 15px;
+    font-family: monospace;
+   
+}
+
+
+
+
+#nev{
+    
+    background-color: #2ECCFA; 
+    font-size: 15px;
+    font-style:  italic;
+}
+
+h4{
+    text-decoration:  underline;
+    color:  #269abc;
+}
+
+h5{
+    text-decoration:inactivecaption;
+    color:  #ac2925;
+}
